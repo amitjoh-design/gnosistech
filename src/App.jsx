@@ -93,6 +93,9 @@ function App() {
             <a href="https://eternalquants.com" target="_blank" rel="noopener noreferrer" className="btn-primary">
               <span>Explore EternalQuants</span><span>→</span>
             </a>
+            <a href="https://eternalmcp.com" target="_blank" rel="noopener noreferrer" className="btn-primary">
+              <span>Explore EternalMCP</span><span>→</span>
+            </a>
             <a href="#innovations" className="btn-ghost">Our Innovations ↓</a>
           </div>
         </div>
@@ -103,7 +106,7 @@ function App() {
 
       <section className="innovations" id="innovations">
         <div className="section-label">Flagship Innovations</div>
-        <h2 className="section-title">Two pillars of<br /><em>transformative</em> impact</h2>
+        <h2 className="section-title">Three pillars of<br /><em>transformative</em> impact</h2>
         <div className="innovation-grid">
           <div className="inno-card">
             <div className="card-number">01</div>
@@ -141,6 +144,26 @@ function App() {
             </ul>
             <a href="mailto:contact@gnosistechadvisors.com" className="card-link">Start a Conversation <span className="arrow">→</span></a>
           </div>
+
+          <div className="inno-card" style={{ gridColumn: '1 / -1' }}>
+            <div className="card-number">03</div>
+            <div className="card-icon">
+              <svg viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+            </div>
+            <div className="card-tag">🔒 Constitutional AI · 100% Claude-Dedicated · India&apos;s #1 MCP Platform</div>
+            <h3 className="card-title">Eternal<em>MCP</em>.com</h3>
+            <p className="card-desc">India&apos;s first and only Claude-dedicated MCP (Model Context Protocol) marketplace. Built exclusively on Anthropic&apos;s Constitutional AI framework, it brings institutional-grade AI tools to individuals, SMEs, and enterprises — with zero technical skill required. Not a multi-LLM aggregator. A permanent strategic choice.</p>
+            <ul className="card-features">
+              <li>No-code access to Claude-powered MCP tools for 1.4 billion people</li>
+              <li>Constitutional AI compliance on every tool — safety is a feature, not a footnote</li>
+              <li>Community publishing with revenue-sharing for MCP creators</li>
+              <li>Enterprise suite for BFSI, healthcare, and government with AI guardrails</li>
+              <li>Education &amp; training programs on Claude for schools, colleges, and SMEs</li>
+            </ul>
+            <a href="https://eternalmcp.com" target="_blank" rel="noopener noreferrer" className="card-link">Visit Platform <span className="arrow">→</span></a>
+          </div>
         </div>
       </section>
 
@@ -152,7 +175,7 @@ function App() {
             <div className="section-label">Philosophy</div>
             <div className="stats-row">
               <div className="stat-box"><span className="stat-value">∞</span><span className="stat-label">Innovation<br />Horizon</span></div>
-              <div className="stat-box"><span className="stat-value">2</span><span className="stat-label">Core<br />Pillars</span></div>
+              <div className="stat-box"><span className="stat-value">3</span><span className="stat-label">Core<br />Pillars</span></div>
               <div className="stat-box"><span className="stat-value">1</span><span className="stat-label">Guiding<br />Purpose</span></div>
             </div>
           </div>
@@ -166,6 +189,45 @@ function App() {
         </div>
       </section>
 
+      <div className="section-divider"><div className="divider-line"></div><div className="divider-mark">✦</div><div className="divider-line"></div></div>
+
+      <section className="constitutional-ai-section">
+        <div className="constitutional-ai-inner">
+          <div className="section-label" style={{ justifyContent: 'center', marginBottom: '20px' }}>Our AI Philosophy</div>
+          <h2 className="section-title" style={{ textAlign: 'center', marginBottom: '32px' }}>Why <em>Constitutional AI</em><br />matters for India</h2>
+          <p className="cai-body">
+            Gnosis Tech Advisors has made a deliberate, permanent commitment to build exclusively
+            on Anthropic&apos;s Claude — the only AI with a production-grade Constitutional AI
+            framework. For the 600 million+ internet users in India, safe AI is not optional.
+          </p>
+          <div className="cai-pillars">
+            <div className="cai-pillar-item">
+              <div className="cai-pillar-title">Constitutional AI</div>
+              <div className="cai-pillar-desc">Anthropic&apos;s framework for safe, aligned AI — the only production-grade approach.</div>
+            </div>
+            <div className="cai-pillar-item">
+              <div className="cai-pillar-title">Claude-Only</div>
+              <div className="cai-pillar-desc">100% dedicated to Claude. Not a multi-LLM aggregator — a permanent strategic choice.</div>
+            </div>
+            <div className="cai-pillar-item">
+              <div className="cai-pillar-title">India-First</div>
+              <div className="cai-pillar-desc">Built to bring responsible AI to 1.4B people — SMEs, students, and enterprises.</div>
+            </div>
+            <div className="cai-pillar-item">
+              <div className="cai-pillar-title">No-Code Access</div>
+              <div className="cai-pillar-desc">Zero technical skill required. Plug into Claude and the tools work immediately.</div>
+            </div>
+          </div>
+          <blockquote className="cai-quote">
+            &ldquo;We are not building on Claude because it is a good API. We are building on Claude
+            because Constitutional AI is the only right foundation for India&apos;s AI future.&rdquo;
+          </blockquote>
+          <div className="philosophy-attribution" style={{ justifyContent: 'center' }}>Amit, Founder · EternalMCP / Gnosis Tech Advisors</div>
+        </div>
+      </section>
+
+      <div className="section-divider"><div className="divider-line"></div><div className="divider-mark">✦</div><div className="divider-line"></div></div>
+
       <section className="footer-cta">
         <div className="eyebrow" style={{ justifyContent: 'center', marginBottom: '32px' }}>
           <span className="eyebrow-line"></span>Ready to Begin<span className="eyebrow-line"></span>
@@ -174,6 +236,7 @@ function App() {
         <p className="cta-sub">Whether you are an IT leader seeking a strategic edge or a quant enthusiast hungry for institutional-grade knowledge — Gnosis Tech is your partner.</p>
         <div style={{ display: 'flex', gap: '24px', justifyContent: 'center', flexWrap: 'wrap' }}>
           <a href="https://eternalquants.com" target="_blank" rel="noopener noreferrer" className="btn-primary"><span>Launch EternalQuants</span><span>→</span></a>
+          <a href="https://eternalmcp.com" target="_blank" rel="noopener noreferrer" className="btn-primary"><span>Explore EternalMCP</span><span>→</span></a>
           <a href="mailto:contact@gnosistechadvisors.com" className="btn-ghost">Advisory Inquiry →</a>
         </div>
       </section>
@@ -182,6 +245,7 @@ function App() {
         <div className="footer-logo">Gnosis Tech Advisors</div>
         <div className="footer-links">
           <a href="https://eternalquants.com" target="_blank" rel="noopener noreferrer">EternalQuants</a>
+          <a href="https://eternalmcp.com" target="_blank" rel="noopener noreferrer">EternalMCP</a>
           <a href="mailto:contact@gnosistechadvisors.com">Contact</a>
         </div>
         <div className="footer-note">© 2025 Gnosis Tech Advisors — All Rights Reserved</div>

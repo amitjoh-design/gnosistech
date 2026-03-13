@@ -273,12 +273,53 @@ footer {
 .footer-links a { font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:0.15em; color:#8a9bb0; text-decoration:none; text-transform:uppercase; transition:color 0.3s; }
 .footer-links a:hover { color:#c9a84c; }
 
+/* CONSTITUTIONAL AI SECTION */
+.constitutional-ai-section {
+  padding: 100px 60px;
+  background: linear-gradient(135deg, rgba(201,168,76,0.04) 0%, transparent 60%);
+  border-top: 1px solid rgba(201,168,76,0.1);
+  border-bottom: 1px solid rgba(201,168,76,0.1);
+}
+.constitutional-ai-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.constitutional-ai-inner .section-label::before { content: '03 —'; }
+.cai-body {
+  font-size: 16px; line-height: 1.8; color: #8a9bb0;
+  max-width: 640px; margin: 0 auto 60px;
+}
+.cai-pillars {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1px; margin-bottom: 60px; text-align: left;
+}
+.cai-pillar-item {
+  background: rgba(255,255,255,0.02); border: 1px solid rgba(201,168,76,0.1);
+  padding: 32px 28px; transition: all 0.3s ease;
+}
+.cai-pillar-item:hover { background: rgba(201,168,76,0.04); border-color: rgba(201,168,76,0.3); }
+.cai-pillar-title {
+  font-family: 'JetBrains Mono', monospace; font-size: 10px;
+  letter-spacing: 0.25em; text-transform: uppercase; color: #c9a84c; margin-bottom: 12px;
+}
+.cai-pillar-desc { font-size: 14px; color: #8a9bb0; line-height: 1.7; }
+.cai-quote {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(20px, 2.5vw, 32px); font-weight: 300;
+  font-style: italic; color: #f5f2ec;
+  border-left: 2px solid rgba(201,168,76,0.4);
+  padding-left: 32px; text-align: left;
+  max-width: 700px; margin: 0 auto 32px;
+}
+
 /* Responsive */
 @media (max-width:900px) {
   nav, .hero-content, .innovations, .footer-cta, footer { padding-left:32px; padding-right:32px; }
   .innovation-grid { grid-template-columns:1fr; }
   .philosophy-inner { grid-template-columns:1fr; gap:40px; }
   .philosophy { padding:80px 32px; }
+  .constitutional-ai-section { padding: 80px 32px; }
   .stats-row { grid-template-columns:1fr; }
   .hero-actions { flex-direction:column; align-items:flex-start; }
   .scroll-hint { padding:32px; }
